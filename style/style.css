@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    text-align: center;
+}
+
+.heading {
+    margin: auto;
+    background-color: blue;
+    height: 100px;
+    width: 80%;
+    border-radius: 20px;
+}
+
+.mod-h1 {
+    font-size: 3rem;
+    color: blanchedalmond;
+    margin: 20px auto;
+    padding: 25px;
+}
