@@ -1,19 +1,70 @@
 body {
+    background-color: #36BE95;
     margin: 0;
     text-align: center;
 }
 
 .heading {
     margin: auto;
-    background-color: blue;
-    height: 100px;
+    background-color: #1511CB;
+    height: 80px;
     width: 80%;
     border-radius: 20px;
 }
 
 .mod-h1 {
-    font-size: 3rem;
     color: blanchedalmond;
     margin: 20px auto;
-    padding: 25px;
+    padding: 18px;
+}
+
+.letter {
+    position: absolute;
+    color: rgb(255, 234, 0);
+    margin: 0;
+    font-size: 5rem;
+    left: 0;
+    right: 0;
+    top: 25px;
+}
+
+.box {
+    border-radius: 5px;
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+    background-color: #FF6A6A;
+    position: relative;
+    top: 30px;
+    display: inline-block;
+}
+
+.row2 {
+    /* color: white; */
+    top: 210px;
+}
+
+.row3 {
+    top: 227px;
+}
+
+.drum {
+    margin-top: 3.5px;
+    border-radius: 5px;
+}
+
+.footer {
+    margin: 0;
+    position: absolute;
+    bottom: 20px;
+    font-size: 2rem;
+    font-style: italic;
+    font-weight: bold;
+    color: white;
+    left: 0;
+    right: 0;
+}
+
+.heart {
+    color: red;
 }
