@@ -25,7 +25,9 @@ body {
     font-size: 5rem;
     left: 0;
     right: 0;
-    top: 25px;
+    top: 0;
+    bottom: 0;
+    padding-top: 25px;
 }
 
 .box {
@@ -54,17 +56,18 @@ body {
 }
 
 .footer {
-    margin: 0;
-    position: absolute;
-    bottom: 20px;
+    margin-top: 250px;
     font-size: 2rem;
     font-style: italic;
     font-weight: bold;
     color: white;
-    left: 0;
-    right: 0;
 }
 
 .heart {
     color: red;
+}
+
+.pressed {
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+    opacity: 0.5;
 }
