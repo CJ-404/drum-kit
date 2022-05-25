@@ -4,7 +4,7 @@ for (let i = 0; i < noOfButtons; i++) {
     document.querySelectorAll(".letter")[i].addEventListener("click", function() {
         var letter = this.innerHTML;
         // console.log(letter);
-        playSound(letter);
+        playSound(letter.toLowerCase());
         click_animation(letter);
     });
 }
@@ -78,7 +78,7 @@ function playSound(key) {
 }
 
 function click_animation(letter) {
-    let clickedButton = document.querySelector("." + letter);
+    let clickedButton = document.querySelector("." + letter.toUpperCase());
     clickedButton.classList.add("pressed");
     setTimeout(function() {
         clickedButton.classList.remove("pressed");
