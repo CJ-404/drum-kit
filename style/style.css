@@ -71,3 +71,11 @@ body {
     box-shadow: 0 3px 4px 0 #DBEDF3;
     opacity: 0.5;
 }
+
+.linkTo {
+    position: relative;
+    top: 100px;
+    color: wheat;
+    font-family: cursive;
+    font-size: 1.5rem;
+}
